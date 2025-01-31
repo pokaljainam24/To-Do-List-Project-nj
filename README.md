@@ -55,8 +55,8 @@ cd task-management-app
   -Displays all tasks in a table format.
 
 ### Folder Structure
-
-**task-management-app/**
+```
+task-management-app/
 │
 ├── app.js               # Main application file
 ├── views/               # EJS templates
