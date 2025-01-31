@@ -27,32 +27,32 @@ cd task-management-app
 ### Routes
 1. **Home Route (GET /)**:
 
-  -Displays all tasks in a list or table format.
-  -If no tasks are available, a message is shown to add a new task.
+  Displays all tasks in a list or table format.
+  If no tasks are available, a message is shown to add a new task.
 
 2. **Add Task Route (POST /add)**:
 
-  -Adds a new task to the list.
-  -The task is assigned a unique ID using Date.now().
-  -Redirects to the home page after adding the task.
+  Adds a new task to the list.
+  The task is assigned a unique ID using Date.now().
+  Redirects to the home page after adding the task.
 
 3. **Delete Task Route (POST /delete/:id)**:
 
-  -Deletes a task by its ID.
-  -Redirects to the home page after deletion.
+  Deletes a task by its ID.
+  Redirects to the home page after deletion.
   
 4. **Edit Task Route (GET /edit/:id)**:
 
-  -Displays a form to edit a specific task by its ID.
+  Displays a form to edit a specific task by its ID.
   
 5. **Update Task Route (POST /edit/:id)**:
 
-  -Updates the task description for a specific task by its ID.
-  -Redirects to the home page after updating.
+  Updates the task description for a specific task by its ID.
+  Redirects to the home page after updating.
 
 6. **View Tasks Route (GET /view)**:
 
-  -Displays all tasks in a table format.
+  Displays all tasks in a table format.
 
 ### Folder Structure
 ```
@@ -65,3 +65,22 @@ task-management-app/
 │   └── view.ejs         # View tasks in a table format
 ├── README.md            # Project documentation
 └── package.json         # Node.js dependencies and scripts
+```
+
+### Example Usage
+
+**Add a Task**:
+
+On the home page, fill out the form and click "Add Task".
+The task will appear in the list.
+
+**Edit a Task**:
+Click the "Edit" button next to a task.
+Update the task description in the form and submit.
+
+**Delete a Task**:
+Click the "Delete" button next to a task.
+The task will be removed from the list.
+
+**View Tasks in a Table**:
+Navigate to /view to see all tasks displayed in a table format.
