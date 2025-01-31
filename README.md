@@ -57,18 +57,25 @@ task-management-app/
 
 ## Example Usage
 
-**Add a Task**:
-
-On the home page, fill out the form and click "Add Task".
+**Add a Task**:  
+On the home page, fill out the form and click "Add Task".  
 The task will appear in the list.
 
-**Edit a Task**:
-Click the "Edit" button next to a task.
+**Edit a Task**:  
+Click the "Edit" button next to a task.  
 Update the task description in the form and submit.
 
-**Delete a Task**:
-Click the "Delete" button next to a task.
+**Delete a Task**:  
+Click the "Delete" button next to a task.  
 The task will be removed from the list.
 
-**View Tasks in a Table**:
-Navigate to /view to see all tasks displayed in a table format.
+**View Tasks in a Table**:  
+Navigate to `/view` to see all tasks displayed in a table format.
+
+## License
+This project is open-source and available under the MIT License.
+
+```
+This `README.md` provides clear instructions on how to set up and use your task management application, explains all the routes and their purposes, and guides users through the process of adding, viewing, editing, and deleting tasks.
+```
+
