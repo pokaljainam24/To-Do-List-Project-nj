@@ -24,7 +24,7 @@ A simple task management application built with Express.js and EJS for server-si
 git clone https://github.com/your-username/task-management-app.git
 cd task-management-app
 ```
-### Routes
+## Routes
 1. **Home Route (GET /)**:
 
   Displays all tasks in a list or table format.
@@ -54,7 +54,7 @@ cd task-management-app
 
   Displays all tasks in a table format.
 
-### Folder Structure
+## Folder Structure
 ```
 task-management-app/
 │
@@ -67,7 +67,7 @@ task-management-app/
 └── package.json         # Node.js dependencies and scripts
 ```
 
-### Example Usage
+## Example Usage
 
 **Add a Task**:
 
