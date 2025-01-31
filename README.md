@@ -56,7 +56,7 @@ cd task-management-app
 
 ### Folder Structure
 
-task-management-app/
+**task-management-app/**
 │
 ├── app.js               # Main application file
 ├── views/               # EJS templates
