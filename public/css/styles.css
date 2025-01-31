@@ -1,0 +1,28 @@
+body {
+    background: #f4f4f4;
+}
+
+.navbar {
+    background: #007bff;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.task-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.list-group-item:hover {
+    background: #f1f1f1;
+}
