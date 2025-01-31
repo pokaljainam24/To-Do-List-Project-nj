@@ -55,6 +55,11 @@ task-management-app/
 └── package.json         # Node.js dependencies and scripts
 ```
 
+## Demo
+![image](https://github.com/user-attachments/assets/373cb2a0-8380-4251-b510-4df577750864)
+
+[Live Link](https://to-do-list-project-nj.onrender.com)
+
 ## Example Usage
 
 **Add a Task**:  
